@@ -1241,7 +1241,7 @@ public class IndividualPickerFragment extends Fragment
             ((IndividualHolder) holder).bindWallpaper(wallpaper);
             WallpaperPreferences prefs = InjectorProvider.getInjector().getPreferences(getContext());
             String appliedWallpaperId = prefs.getHomeWallpaperRemoteId();
-            boolean isWallpaperApplied = wallpaper.getWallpaperId().equals(appliedWallpaperId);
+            boolean isWallpaperApplied = wallpaper.getWallpaperId() == (appliedWallpaperId);
             boolean isWallpaperSelected = wallpaper.equals(mSelectedWallpaperInfo);
             boolean hasUserSelectedWallpaper = mSelectedWallpaperInfo != null;
 
