@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd41a9ec_cfa0aa38",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000481
+      },
+      "writtenOn": "2020-12-21T12:21:54Z",
+      "side": 1,
+      "message": "Fixes: https://imgur.com/a/FisKYd5",
+      "revId": "258abf7d6dacb3e979e88dac5520b9e500046efa",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
